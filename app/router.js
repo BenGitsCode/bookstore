@@ -7,7 +7,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('rbooks');
+  this.route('books');
   this.route('authors');
   this.route('publishing-houses');
 });
